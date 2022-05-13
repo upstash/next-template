@@ -7,7 +7,7 @@ export default function Breadcrumb() {
   return (
     <div className="flex items-center gap-1.5">
       <Image src="/github.svg" alt="GitHub Logo" width={20} height={20}/>
-      <span className="text-zinc-300">/</span>
+      <span className="text-gray-300">/</span>
       <a
         className="hover:underline"
         href="https://github.com/upstash"
@@ -17,7 +17,7 @@ export default function Breadcrumb() {
         upstash
       </a>
       <>
-        <span className="text-zinc-300">/</span>
+        <span className="text-gray-300">/</span>
         <a
           className="hover:underline"
           href={packageUrl}
