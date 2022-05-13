@@ -13,5 +13,5 @@ or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the
 example:
 
 ```bash
-yarn create next-app https://github.com/upstash/next-template your-app-name
+yarn create next-app -e https://github.com/upstash/next-template your-app-name
 ```
