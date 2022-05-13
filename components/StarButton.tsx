@@ -1,6 +1,11 @@
 export default function StarButton() {
+  const packageUrl = process.env.packageUrl;
+
   return (
     <a
+      href={packageUrl}
+      target="_blank"
+      rel="noopener noreferrer"
       className="flex cursor-pointer items-center gap-1.5 rounded border px-3 py-1 hover:bg-amber-100 hover:border-amber-300 hover:text-amber-900">
       <svg width="16" height="16" viewBox="0 0 16 16" version="1.1">
         <path
