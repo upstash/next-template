@@ -6,7 +6,9 @@ function MyApp({Component, pageProps}: AppProps) {
   return (
     <>
       <Header/>
-      <Component {...pageProps} />
+      <div className="mx-auto w-full max-w-3xl py-14 px-6">
+        <Component {...pageProps} />
+      </div>
     </>
   );
 }

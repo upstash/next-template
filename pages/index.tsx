@@ -9,7 +9,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="mx-auto w-full max-w-3xl space-y-4 py-16">
+      <main className="space-y-4">
         <h1 className="text-center text-4xl font-bold">
           Welcome to <span className="text-emerald-400">next-template</span>
         </h1>
