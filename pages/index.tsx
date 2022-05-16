@@ -8,7 +8,13 @@ const Home: NextPage = () => {
           <h1 className="text-4xl font-bold">
             Welcome to <span className="text-primary-500">next-template</span>
           </h1>
-          <p className="mt-2 mt-2 text-lg text-gray-600">This is a template for a Next.js example.</p>
+
+          <p className="mt-4">This is a template for a Next.js example.</p>
+
+          <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto dolores in
+            nostrum odit officiis
+            omnis optio quis sint suscipit. Accusantium aliquid blanditiis culpa delectus, dicta ea facilis repudiandae
+            tenetur.</p>
         </header>
 
         <hr className="my-10"/>
