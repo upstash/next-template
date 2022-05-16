@@ -1,6 +1,5 @@
 {
   "name": "next-template",
-  "url": "https://github.com/upstash/next-template",
   "private": true,
   "scripts": {
     "dev": "next dev",
