@@ -16,15 +16,10 @@ function MyApp({ Component, pageProps }: AppProps) {
 
       <Header
         breadcrumbOptions={{
-          showRoot: false,
           data: [
             {
-              name: "redis-examples",
-              url: "https://github.com/upstash/redis-examples",
-            },
-            {
-              name: "next-caching-with-redis",
-              url: "https://github.com/upstash/redis-examples/tree/master/next-caching-with-redis",
+              name: "next-template",
+              url: "https://github.com/upstash/next-template",
             },
           ],
         }}
